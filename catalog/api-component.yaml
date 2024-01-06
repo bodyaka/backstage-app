@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api
+  # This is an extra long description with Markdown
+  description: |
+    [The API](http://api.poglyad.org) is an example API used to show features of the OpenAPI spec.
+    - First item
+    - Second item
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+#  providesApis:
+#    - petstore
+#    - streetlights
+#    - hello-world
