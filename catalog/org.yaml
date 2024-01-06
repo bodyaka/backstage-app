@@ -14,4 +14,4 @@ metadata:
   name: team-a
 spec:
   type: team
-  children: [bogdan]
+  children: []
